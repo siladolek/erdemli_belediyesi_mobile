@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "419161832472",
+    "project_id": "erdemlimobil-81183",
+    "storage_bucket": "erdemlimobil-81183.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419161832472:android:a849cdcd6abd3a0600976d",
+        "android_client_info": {
+          "package_name": "com.example.erdemli_belediyesi_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf69cljHtZVRDgD209a5S7SthfrfLKto8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

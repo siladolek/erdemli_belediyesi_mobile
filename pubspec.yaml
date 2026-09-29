@@ -1,0 +1,58 @@
+name: erdemli_belediyesi_mobile
+description: "Erdemli Belediyesi Resmi Mobil Uygulaması"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_messaging: 16.5.0
+
+  # UI & Tasarım
+  cupertino_icons: ^1.0.8
+  google_fonts: ^8.2.0
+  shimmer: ^3.0.0
+  carousel_slider: ^5.1.2
+  cached_network_image: ^3.4.1
+
+  # State Yönetimi (MVVM)
+  provider: ^6.1.2
+
+  # Firebase (Offline-First Veri Katmanı)
+  firebase_core: ^4.13.0
+  firebase_auth: ^6.5.7
+  cloud_firestore: ^6.8.0
+
+  # Harita & Dış Bağlantılar
+  google_maps_flutter: ^2.5.3
+  url_launcher: ^6.3.2
+
+  # Yardımcı
+  http: ^1.6.0
+  intl: ^0.20.2
+  flutter_inappwebview: ^6.1.5
+  webview_flutter: ^4.14.1
+  html: ^0.15.6
+  image_picker: ^1.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
